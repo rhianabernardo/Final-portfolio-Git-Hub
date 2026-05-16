@@ -1,0 +1,176 @@
+/* =============================
+   GENERAL STYLING
+============================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #blue;
+  color: #222;
+  line-height: 1.6;
+}
+
+
+/* =============================
+   HEADER
+============================= */
+
+header {
+  background-color: #0A0E2A;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #blue;
+}
+
+.logo {
+  font-size: 28px;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero p {
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #FFD700;
+  color: #0A0E2A;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: white;
+}
+
+
+/* =============================
+   MAIN CONTENT
+============================= */
+
+main {
+  width: 90%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.card {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #0A0E2A;
+}
+
+
+/* =============================
+   EDUCATION LAYOUT
+============================= */
+
+.education-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.education-box {
+  flex: 1;
+  min-width: 250px;
+  background-color: #F5F5F5;
+  padding: 15px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.education-box:hover {
+  background-color: #FFD700;
+}
+
+
+/* =============================
+   FORM
+============================= */
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#response {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+
+/* =============================
+   FOOTER
+============================= */
+
+footer {
+  background-color: #0A0E2A;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
